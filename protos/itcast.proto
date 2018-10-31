@@ -48,7 +48,7 @@ service Demo {
     rpc Calculate(Work) returns (Result) {}
 
     // server streaming rpc
-    // 根据城市获取传智开设的学科
+    // 根据城市获取学科
     rpc GetSubjects(City) returns (stream Subject) {}
 
     // client streaming rpc

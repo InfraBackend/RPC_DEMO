@@ -9,9 +9,9 @@ import time
 class DemoServicer(itcast_pb2_grpc.DemoServicer):
     def __init__(self):
         self.city_subjects_db = {
-            'beijing': ['python', 'c++', 'go', '产品经理', '测试', '运维', 'java', 'php'],
-            'shanghai': ['python', 'c++', 'go', '测试', '运维', 'java', 'php'],
-            'wuhan': ['python', '测试', 'java', 'php']
+            'beijing': ['python', 'c++', 'go', 'java', 'php'],
+            'shanghai': ['python', 'c++', 'go', 'java'],
+            'wuhan': ['python', 'java', 'php']
         }
         self.answers = list(range(10))
 

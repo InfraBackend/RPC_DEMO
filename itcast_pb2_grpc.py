@@ -50,7 +50,7 @@ class DemoServicer(object):
 
   def GetSubjects(self, request, context):
     """server streaming rpc
-    根据城市获取传智开设的学科
+    根据城市获取学科
     """
     context.set_code(grpc.StatusCode.UNIMPLEMENTED)
     context.set_details('Method not implemented!')
